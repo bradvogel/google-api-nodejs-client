@@ -1,6 +1,6 @@
 {
   "name": "googleapis",
-  "version": "https://github.com/bradvogel/google-api-nodejs-client/archive/6a3bde7b079b39461263d3f5a0b98b250fdb8df3.tar.gz",
+  "version": "https://github.com/bradvogel/google-api-nodejs-client/tarball/6a3bde7b079b39461263d3f5a0b98b250fdb8df3",
   "author": "Google Inc.",
   "description": "Google APIs Client Library for Node.js",
   "contributors": [
