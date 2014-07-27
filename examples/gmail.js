@@ -23,12 +23,10 @@ google.options({
 });
 
 var gmail = google.gmail('v1');
-var req = gmail.users.drafts.create({
+var req = gmail.users.messages.send({
   userId: 'me',
   resource: {
-    message: {
-      raw: getMessage()
-    }
+    raw: getMessage()
   },
   media: {
     mimeType: 'message/rfc822'
@@ -51,7 +49,7 @@ var req = gmail.users.messages.send({
 
 function getMessage() {
   var email = "From: 'me'\r\n" +
-    "To: bradvogel@outlook.com\r\n" +
+    "To: brad@mixmax.com\r\n" +
     "Subject: Test Doctype\r\n" +
     "Content-Type: text/html; charset=utf-8\r\n" +
     "\r\n" +
